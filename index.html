@@ -1,10 +1,10 @@
 ﻿<!doctype html>
-<html>
+<html lang="vi">
   <head>
     <title>Đắk Lắk</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="UTF-8" />
-    
+
 <link rel="shortcut icon" href="./Logo/favicon.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="./Logo/android-chrome-512x512.png" type="image/x-icon">
 <link rel="shortcut icon" href="./Logo/apple-touch-icon.png" type="image/x-icon">
@@ -13,52 +13,28 @@
 <link rel="shortcut icon" href="./Logo/android-chrome-192x192.png" type="image/x-icon">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://giabao123123.github.io/webcon/web%20con.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,400&display=swap" />
+    <link rel="stylesheet" href="Style.css" />
     <style></style>
   </head>
-  <body class="w3-light-grey" style="padding-top: 110px" id="hero">
-    <a href="#hero" class="scroll-top-button">
-      <i class="fas fa-chevron-up"></i>
-    </a>
-    <aside id="backToTop">
-      <a href="#hero" aria-label="Lên đầu trang">
-        <span class="arrow arrow-1"></span>
-        <span class="arrow arrow-2"></span>
-      </a>
-    </aside>
-    <aside class="box w3-right neon-box2" style="margin-top: 2%">
-      <p class="text">Chào mừng đến với tỉnh Đắk Lắk!</p>
-    </aside>
+  <body class="w3-light-grey">
     <header class="w3-top">
       <nav
         class="w3-bar w3-white w3-padding w3-card"
-        style="letter-spacing: 4px"
+        aria-label="Thanh điều hướng chính"
       >
         <a href="https://giabao123123.github.io/mienvietnam/" class="w3-bar-item neon-box">Đắk Lắk</a>
         <button class="scroll-btn left-btn w3-hide-small w3-hide-medium">
-          ❮
+          &#10094;
         </button>
         <button class="scroll-btn right-btn w3-hide-small w3-hide-medium">
-          ❯
+          &#10095;
         </button>
         <input type="checkbox" id="menu-toggle" />
         <label for="menu-toggle" class="menu-icon">☰</label>
         <ul
-          style="
-            background: linear-gradient(180deg, #ff9800, #ff5722);
-            color: #fffaf0;
-          "
           class="menu w3-right w3-button"
           id="menu-list"
         >
@@ -82,36 +58,23 @@
           </li>
         </ul>
         <nav
-          style="
-            background: linear-gradient(180deg, #ff9800, #ff5722);
-            color: #fff3cd;
-          "
           class="w3-animate-left w3-hide-small neon-box"
+          aria-label="Menu cuộn desktop"
         >
-          <div class="menu-scroll">
-            <a href="#about" class="w3-bar-item w3-button"
-              >LỊCH SỬ HÌNH THÀNH</a
-            >
+          <div class="menu-scroll" role="list">
+            <a href="#about" class="w3-bar-item w3-button">LỊCH SỬ HÌNH THÀNH</a>
             <a href="#menu" class="w3-bar-item w3-button">ĐỊA LÝ</a>
-            <a href="#DIEUKIENTUNHIEN" class="w3-bar-item w3-button"
-              >ĐIỀU KIỆN TỰ NHIÊN</a
-            >
+            <a href="#DIEUKIENTUNHIEN" class="w3-bar-item w3-button">ĐIỀU KIỆN TỰ NHIÊN</a>
             <a href="#khihau" class="w3-bar-item w3-button">KHÍ HẬU</a>
-            <a href="#THOITIET" class="w3-bar-item w3-button"
-              >DỰ BÁO THỜI TIẾT TRONG TỈNH</a
-            >
+            <a href="#THOITIET" class="w3-bar-item w3-button">DỰ BÁO THỜI TIẾT TRONG TỈNH</a>
             <a href="#contact" class="w3-bar-item w3-button">DÂN CƯ</a>
             <a href="#VANHOA" class="w3-bar-item w3-button">VĂN HOÁ</a>
-            <a href="#DITICH" class="w3-bar-item w3-button"
-              >DI TÍCH, DI SẢN VĂN HOÁ</a
-            >
+            <a href="#DITICH" class="w3-bar-item w3-button">DI TÍCH, DI SẢN VĂN HOÁ</a>
             <a href="#GIAODUC" class="w3-bar-item w3-button">GIÁO DỤC</a>
             <a href="#KINHTE" class="w3-bar-item w3-button">KINH TẾ</a>
             <a href="#AMTHUC" class="w3-bar-item w3-button">ẨM THỰC</a>
             <a href="#DULICH" class="w3-bar-item w3-button">DU LỊCH</a>
-            <a href="#tiemnang" class="w3-bar-item w3-button"
-              >TIỀM NĂNG PHÁT TRIÊN</a
-            >
+            <a href="#tiemnang" class="w3-bar-item w3-button">TIỀM NĂNG PHÁT TRIÊN</a>
             <a
               href="https://giabao123123.github.io/trochoidaklak/"
               class="w3-bar-item w3-button"
@@ -120,8 +83,51 @@
           </div>
         </nav>
       </nav>
+      <aside
+        class="box w3-right neon-box2"
+        aria-label="Lời chào"
+      >
+        <p class="text">Chào mừng đến với tỉnh Đắk Lắk!</p>
+      </aside>
     </header>
+    <aside id="backToTop">
+      <a href="#" aria-label="Lên đầu trang">
+        <span class="arrow arrow-1"></span>
+        <span class="arrow arrow-2"></span>
+      </a>
+    </aside>
+    <a href="#" class="scroll-top-button" id="scrollTopBtn" aria-label="Lên đầu trang">&#8679;</a>
     <main class="w3-content" style="max-width: 1100px">
+      <section class="hero-vl" aria-label="Giới thiệu tỉnh Đắk Lắk">
+        <div
+          class="hero-vl-bg"
+          style="background-image: url('https://dutoanf1.com.vn/wp-content/uploads/2019/01/dak-lak.jpg')"
+        ></div>
+        <div class="hero-vl-scrim"></div>
+        <div class="hero-vl-content">
+          <p class="hero-vl-kicker">Tây Nguyên – Cao Nguyên Hùng Vĩ</p>
+          <h1 class="hero-vl-title">Đắk Lắk</h1>
+          <p class="hero-vl-sub">
+            Vùng đất của đại ngàn Trường Sơn và cao nguyên bát ngát — nơi văn hoá
+            cồng chiêng Tây Nguyên hoà quyện cùng những cánh rừng, buôn làng và dòng sông Srêpốk huyền thoại.
+          </p>
+          <div class="hero-vl-stats">
+            <div class="hero-vl-stat">
+              <span>18.096 km²</span>
+              <small>Diện tích</small>
+            </div>
+            <div class="hero-vl-stat">
+              <span>3,3 triệu</span>
+              <small>Dân số</small>
+            </div>
+            <div class="hero-vl-stat">
+              <span>Buôn Ma Thuột</span>
+              <small>Tỉnh lỵ</small>
+            </div>
+          </div>
+        </div>
+        <div class="hero-vl-waves"></div>
+      </section>
       <section class="w3-row w3-padding-16 w3-animate-left" id="about">
         <h1 class="w3-center" style="color: red; font-size: 35px">
           LỊCH SỬ HÌNH THÀNH
@@ -617,122 +623,122 @@
             {
               name: "Huyện Cư Kuin",
               parent: "Tỉnh Đắk Lắk cũ",
-              widget: `<!--Begin thoitiet.app widget --><iframe src="https://thoitiet247.vn/widget/embed/dak-lak/cu-kuin?style=2&day=7&td=%23ffffff&ntd=%231c84ee&mvb=%23848484&mv=%231c84ee&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe><!-- End thoitiet.app widget -->`,
+              widget: `<iframe src="https://thoitiet247.vn/widget/embed/dak-lak/cu-kuin?style=2&day=7&td=%23ffffff&ntd=%231A6B42&mvb=%23848484&mv=%231A6B42&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe>`,
             },
             {
               name: "Huyện Ea Súp",
               parent: "Tỉnh Đắk Lắk cũ",
-              widget: `<!--Begin thoitiet.app widget --><iframe src="https://thoitiet247.vn/widget/embed/dak-lak/ea-sup?style=2&day=7&td=%23ffffff&ntd=%231c84ee&mvb=%23848484&mv=%231c84ee&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe><!-- End thoitiet.app widget -->`,
+              widget: `<iframe src="https://thoitiet247.vn/widget/embed/dak-lak/ea-sup?style=2&day=7&td=%23ffffff&ntd=%231A6B42&mvb=%23848484&mv=%231A6B42&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe>`,
             },
             {
               name: "Huyện Lắk",
               parent: "Tỉnh Đắk Lắk cũ",
-              widget: `<!--Begin thoitiet.app widget --><iframe src="https://thoitiet247.vn/widget/embed/dak-lak/lak?style=2&day=7&td=%23ffffff&ntd=%231c84ee&mvb=%23848484&mv=%231c84ee&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe><!-- End thoitiet.app widget -->`,
+              widget: `<iframe src="https://thoitiet247.vn/widget/embed/dak-lak/lak?style=2&day=7&td=%23ffffff&ntd=%231A6B42&mvb=%23848484&mv=%231A6B42&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe>`,
             },
             {
               name: "Huyện Krông Ana",
               parent: "Tỉnh Đắk Lắk cũ",
-              widget: `<!--Begin thoitiet.app widget --><iframe src="https://thoitiet247.vn/widget/embed/dak-lak/krong-a-na?style=2&day=7&td=%23ffffff&ntd=%231c84ee&mvb=%23848484&mv=%231c84ee&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe><!-- End thoitiet.app widget -->`,
+              widget: `<iframe src="https://thoitiet247.vn/widget/embed/dak-lak/krong-a-na?style=2&day=7&td=%23ffffff&ntd=%231A6B42&mvb=%23848484&mv=%231A6B42&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe>`,
             },
             {
               name: "Huyện Buôn Đôn",
               parent: "Tỉnh Đắk Lắk cũ",
-              widget: `<!--Begin thoitiet.app widget --><iframe src="https://thoitiet247.vn/widget/embed/dak-lak/buon-don?style=2&day=7&td=%23ffffff&ntd=%231c84ee&mvb=%23848484&mv=%231c84ee&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe><!-- End thoitiet.app widget -->`,
+              widget: `<iframe src="https://thoitiet247.vn/widget/embed/dak-lak/buon-don?style=2&day=7&td=%23ffffff&ntd=%231A6B42&mvb=%23848484&mv=%231A6B42&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe>`,
             },
             {
               name: "Huyện Krông Bông",
               parent: "Tỉnh Đắk Lắk cũ",
-              widget: `<!--Begin thoitiet.app widget --><iframe src="https://thoitiet247.vn/widget/embed/dak-lak/krong-bong?style=2&day=7&td=%23ffffff&ntd=%231c84ee&mvb=%23848484&mv=%231c84ee&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe><!-- End thoitiet.app widget -->`,
+              widget: `<iframe src="https://thoitiet247.vn/widget/embed/dak-lak/krong-bong?style=2&day=7&td=%23ffffff&ntd=%231A6B42&mvb=%23848484&mv=%231A6B42&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe>`,
             },
             {
               name: "Huyện M’Đrắk",
               parent: "Tỉnh Đắk Lắk cũ",
-              widget: `<!--Begin thoitiet.app widget --><iframe src="https://thoitiet247.vn/widget/embed/dak-lak/m'drak?style=2&day=7&td=%23ffffff&ntd=%231c84ee&mvb=%23848484&mv=%231c84ee&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe><!-- End thoitiet.app widget -->`,
+              widget: `<iframe src="https://thoitiet247.vn/widget/embed/dak-lak/m'drak?style=2&day=7&td=%23ffffff&ntd=%231A6B42&mvb=%23848484&mv=%231A6B42&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe>`,
             },
             {
               name: "Huyện Ea Kar",
               parent: "Tỉnh Đắk Lắk cũ",
-              widget: `<!--Begin thoitiet.app widget --><iframe src="https://thoitiet247.vn/widget/embed/dak-lak/ea-kar?style=2&day=7&td=%23ffffff&ntd=%231c84ee&mvb=%23848484&mv=%231c84ee&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe><!-- End thoitiet.app widget -->`,
+              widget: `<iframe src="https://thoitiet247.vn/widget/embed/dak-lak/ea-kar?style=2&day=7&td=%23ffffff&ntd=%231A6B42&mvb=%23848484&mv=%231A6B42&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe>`,
             },
             {
               name: "Huyện Krông Pắc",
               parent: "Tỉnh Đắk Lắk cũ",
-              widget: `<!--Begin thoitiet.app widget --><iframe src="https://thoitiet247.vn/widget/embed/dak-lak/krong-pac?style=2&day=7&td=%23ffffff&ntd=%231c84ee&mvb=%23848484&mv=%231c84ee&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe><!-- End thoitiet.app widget -->`,
+              widget: `<iframe src="https://thoitiet247.vn/widget/embed/dak-lak/krong-pac?style=2&day=7&td=%23ffffff&ntd=%231A6B42&mvb=%23848484&mv=%231A6B42&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe>`,
             },
             {
               name: "Huyện Krông Năng",
               parent: "Tỉnh Đắk Lắk cũ",
-              widget: `<!--Begin thoitiet.app widget --><iframe src="https://thoitiet247.vn/widget/embed/dak-lak/krong-nang?style=2&day=7&td=%23ffffff&ntd=%231c84ee&mvb=%23848484&mv=%231c84ee&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe><!-- End thoitiet.app widget -->`,
+              widget: `<iframe src="https://thoitiet247.vn/widget/embed/dak-lak/krong-nang?style=2&day=7&td=%23ffffff&ntd=%231A6B42&mvb=%23848484&mv=%231A6B42&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe>`,
             },
             {
               name: "Huyện Ea H’Leo",
               parent: "Tỉnh Đắk Lắk cũ",
-              widget: `<!--Begin thoitiet.app widget --><iframe src="https://thoitiet247.vn/widget/embed/dak-lak/ea-h'leo?style=2&day=7&td=%23ffffff&ntd=%231c84ee&mvb=%23848484&mv=%231c84ee&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe><!-- End thoitiet.app widget -->`,
+              widget: `<iframe src="https://thoitiet247.vn/widget/embed/dak-lak/ea-h'leo?style=2&day=7&td=%23ffffff&ntd=%231A6B42&mvb=%23848484&mv=%231A6B42&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe>`,
             },
             {
               name: "Huyện Krông Búk",
               parent: "Tỉnh Đắk Lắk cũ",
-              widget: `<!--Begin thoitiet.app widget --><iframe src="https://thoitiet247.vn/widget/embed/dak-lak/krong-buk?style=2&day=7&td=%23ffffff&ntd=%231c84ee&mvb=%23848484&mv=%231c84ee&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe><!-- End thoitiet.app widget -->`,
+              widget: `<iframe src="https://thoitiet247.vn/widget/embed/dak-lak/krong-buk?style=2&day=7&td=%23ffffff&ntd=%231A6B42&mvb=%23848484&mv=%231A6B42&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe>`,
             },
             {
               name: "Huyện Cư M’gar",
               parent: "Tỉnh Đắk Lắk cũ",
-              widget: `<!--Begin thoitiet.app widget --><iframe src="https://thoitiet247.vn/widget/embed/dak-lak/cu-m'gar?style=2&day=7&td=%23ffffff&ntd=%231c84ee&mvb=%23848484&mv=%231c84ee&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe><!-- End thoitiet.app widget -->`,
+              widget: `<iframe src="https://thoitiet247.vn/widget/embed/dak-lak/cu-m'gar?style=2&day=7&td=%23ffffff&ntd=%231A6B42&mvb=%23848484&mv=%231A6B42&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe>`,
             },
             {
               name: "thị xã Buôn Hồ",
               parent: "Tỉnh Đắk Lắk cũ",
-              widget: `<!--Begin thoitiet.app widget --><iframe src="https://thoitiet247.vn/widget/embed/dak-lak/buon-ho?style=2&day=7&td=%23ffffff&ntd=%231c84ee&mvb=%23848484&mv=%231c84ee&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe><!-- End thoitiet.app widget -->`,
+              widget: `<iframe src="https://thoitiet247.vn/widget/embed/dak-lak/buon-ho?style=2&day=7&td=%23ffffff&ntd=%231A6B42&mvb=%23848484&mv=%231A6B42&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe>`,
             },
             {
               name: "Thành phố Buôn Ma Thuột",
               parent: "Tỉnh Đắk Lắk cũ",
-              widget: `<!--Begin thoitiet.app widget --><iframe src="https://thoitiet247.vn/widget/embed/dak-lak/buon-ma-thuot?style=2&day=7&td=%23ffffff&ntd=%231c84ee&mvb=%23848484&mv=%231c84ee&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe><!-- End thoitiet.app widget -->`,
+              widget: `<iframe src="https://thoitiet247.vn/widget/embed/dak-lak/buon-ma-thuot?style=2&day=7&td=%23ffffff&ntd=%231A6B42&mvb=%23848484&mv=%231A6B42&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe>`,
             },
             {
               name: "Thành phố Tuy Hoà",
               parent: "Tỉnh Phú Yên cũ",
-              widget: `<!--Begin thoitiet.app widget --><iframe src="https://thoitiet247.vn/widget/embed/phu-yen/tuy-hoa?style=2&day=7&td=%23ffffff&ntd=%231c84ee&mvb=%23848484&mv=%231c84ee&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe><!-- End thoitiet.app widget -->`,
+              widget: `<iframe src="https://thoitiet247.vn/widget/embed/phu-yen/tuy-hoa?style=2&day=7&td=%23ffffff&ntd=%231A6B42&mvb=%23848484&mv=%231A6B42&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe>`,
             },
             {
               name: "Huyện Sông Hinh",
               parent: "Tỉnh Phú Yên cũ",
-              widget: `<!--Begin thoitiet.app widget --><iframe src="https://thoitiet247.vn/widget/embed/phu-yen/song-hinh?style=2&day=7&td=%23ffffff&ntd=%231c84ee&mvb=%23848484&mv=%231c84ee&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe><!-- End thoitiet.app widget -->`,
+              widget: `<iframe src="https://thoitiet247.vn/widget/embed/phu-yen/song-hinh?style=2&day=7&td=%23ffffff&ntd=%231A6B42&mvb=%23848484&mv=%231A6B42&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe>`,
             },
             {
               name: "Huyện Sơn Hòa",
               parent: "Tỉnh Phú Yên cũ",
-              widget: `<!--Begin thoitiet.app widget --><iframe src="https://thoitiet247.vn/widget/embed/phu-yen/son-hoa?style=2&day=7&td=%23ffffff&ntd=%231c84ee&mvb=%23848484&mv=%231c84ee&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe><!-- End thoitiet.app widget -->`,
+              widget: `<iframe src="https://thoitiet247.vn/widget/embed/phu-yen/son-hoa?style=2&day=7&td=%23ffffff&ntd=%231A6B42&mvb=%23848484&mv=%231A6B42&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe>`,
             },
             {
               name: "Huyện Tuy An",
               parent: "Tỉnh Phú Yên cũ",
-              widget: `<!--Begin thoitiet.app widget --><iframe src="https://thoitiet247.vn/widget/embed/phu-yen/tuy-an?style=2&day=7&td=%23ffffff&ntd=%231c84ee&mvb=%23848484&mv=%231c84ee&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe><!-- End thoitiet.app widget -->`,
+              widget: `<iframe src="https://thoitiet247.vn/widget/embed/phu-yen/tuy-an?style=2&day=7&td=%23ffffff&ntd=%231A6B42&mvb=%23848484&mv=%231A6B42&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe>`,
             },
             {
               name: "Huyện Đồng Xuân",
               parent: "Tỉnh Phú Yên cũ",
-              widget: `<!--Begin thoitiet.app widget --><iframe src="https://thoitiet247.vn/widget/embed/dak-lak/cu-kuin?style=2&day=7&td=%23ffffff&ntd=%231c84ee&mvb=%23848484&mv=%231c84ee&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe><!-- End thoitiet.app widget -->`,
+              widget: `<iframe src="https://thoitiet247.vn/widget/embed/dak-lak/cu-kuin?style=2&day=7&td=%23ffffff&ntd=%231A6B42&mvb=%23848484&mv=%231A6B42&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe>`,
             },
             {
               name: "Huyện Phú Hoà",
               parent: "Tỉnh Phú Yên cũ",
-              widget: `<!--Begin thoitiet.app widget --><iframe src="https://thoitiet247.vn/widget/embed/phu-yen/phu-hoa?style=2&day=7&td=%23ffffff&ntd=%231c84ee&mvb=%23848484&mv=%231c84ee&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe><!-- End thoitiet.app widget -->`,
+              widget: `<iframe src="https://thoitiet247.vn/widget/embed/phu-yen/phu-hoa?style=2&day=7&td=%23ffffff&ntd=%231A6B42&mvb=%23848484&mv=%231A6B42&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe>`,
             },
             {
               name: "Huyện Tây Hoà",
               parent: "Tỉnh Phú Yên cũ",
-              widget: `<!--Begin thoitiet.app widget --><iframe src="https://thoitiet247.vn/widget/embed/phu-yen/tay-hoa?style=2&day=7&td=%23ffffff&ntd=%231c84ee&mvb=%23848484&mv=%231c84ee&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe><!-- End thoitiet.app widget -->`,
+              widget: `<iframe src="https://thoitiet247.vn/widget/embed/phu-yen/tay-hoa?style=2&day=7&td=%23ffffff&ntd=%231A6B42&mvb=%23848484&mv=%231A6B42&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe>`,
             },
             {
               name: "Thị xã Sông Cầu",
               parent: "Tỉnh Phú Yên cũ",
-              widget: `<!--Begin thoitiet.app widget --><iframe src="https://thoitiet247.vn/widget/embed/phu-yen/song-cau?style=2&day=7&td=%23ffffff&ntd=%231c84ee&mvb=%23848484&mv=%231c84ee&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe><!-- End thoitiet.app widget -->`,
+              widget: `<iframe src="https://thoitiet247.vn/widget/embed/phu-yen/song-cau?style=2&day=7&td=%23ffffff&ntd=%231A6B42&mvb=%23848484&mv=%231A6B42&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe>`,
             },
             {
               name: "Thị xã Đông Hòa",
               parent: "Tỉnh Phú Yên cũ",
-              widget: `<!--Begin thoitiet.app widget --><iframe src="https://thoitiet247.vn/widget/embed/phu-yen/dong-hoa?style=2&day=7&td=%23ffffff&ntd=%231c84ee&mvb=%23848484&mv=%231c84ee&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe><!-- End thoitiet.app widget -->`,
+              widget: `<iframe src="https://thoitiet247.vn/widget/embed/phu-yen/dong-hoa?style=2&day=7&td=%23ffffff&ntd=%231A6B42&mvb=%23848484&mv=%231A6B42&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe>`,
             },
           ];
           function ttNorm(s) {
@@ -4092,10 +4098,23 @@
     <footer class="w3-center w3-light-grey w3-padding-32">
       <p>HẾT!</p>
     </footer>
+    <script>
+      
+      var scrollBtn = document.getElementById('scrollTopBtn');
+      if (scrollBtn) {
+        window.addEventListener('scroll', function() {
+          if (window.scrollY > 300) {
+            scrollBtn.classList.add('show');
+          } else {
+            scrollBtn.classList.remove('show');
+          }
+        }, { passive: true });
+        scrollBtn.addEventListener('click', function(e) {
+          e.preventDefault();
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+      }
+    </script>
+    <script src="animations.js"></script>
   </body>
 </html>
-
-
-
-
-
